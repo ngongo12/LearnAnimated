@@ -1,0 +1,16 @@
+export default {
+    ball: require('./ball.png'),
+    beach: require('./beach.png'),
+    campfire: require('./campfire.png'),
+    camping_tent: require('./camping-tent.png'),
+    cave: require('./cave.png'),
+    cocktail: require('./cocktail.png'),
+    flip_flops: require('./flip-flops.png'),
+    flippers: require('./flippers.png'),
+    float: require('./float.png'),
+    life_jacket: require('./life-jacket.png'),
+    lighthouse: require('./lighthouse.png'),
+    scuba_diving: require('./scuba-diving.png'),
+    summer: require('./summer.png'),
+    umbrella: require('./umbrella.png'),
+}
