@@ -7,7 +7,6 @@ const ITEM_WITDH = width * 0.5;
 const SPACING = 20;
 
 const MarketingSlider = () => {
-    console.log('MarketingSlider')
     return (
         <FlatList
             data={SLIDER_DATA}

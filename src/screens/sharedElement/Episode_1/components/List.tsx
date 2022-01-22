@@ -8,7 +8,6 @@ import { SharedElement } from 'react-navigation-shared-element';
 
 
 const List = ({ navigation }: any) => {
-    console.log(navigation);
     return (
         <SafeAreaView style={{ flex: 1 }}>
             <MarketingSlider />

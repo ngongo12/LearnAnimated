@@ -13,17 +13,18 @@ const Icon = ({ item }: any) => {
 
 export default Icon;
 const { width, height } = Dimensions.get('window');
-const ICON_SIZE = width / 15;
+export const ICON_SIZE = width / 15;
+export const SPACING = 10;
 const styles = StyleSheet.create({
     image: {
         resizeMode: 'center',
         height: ICON_SIZE,
         width: ICON_SIZE,
-        margin: 10
+        margin: SPACING
     },
     icon: {
-        padding: 10,
-        margin: 10,
+        padding: SPACING,
+        margin: SPACING,
         backgroundColor: 'darkgrey',
         borderRadius: 100
     }
